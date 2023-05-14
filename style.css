@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
+
+body, .wrapper {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    height: calc(100vw - 170px);
+}
+
+.wrapper {
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+* {
+    font-family: "Source Code Pro", monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+form>*>input, .btn-link {
+    padding: 10px;
+    border-radius: 16px;
+    border: 0.5px solid;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+
+.sub {
+    display: block !important;
+}
+
+label {
+    display: none;
+}
+
+.btn, .btn-link {
+    background: transparent;
+}
+
+.btn-link {
+    text-decoration: none;
+    color:black !important;
+    border-color: black !important;
+}
+
+.btn:hover, .btn-link:hover {
+    background: rgb(173 173 173 / 30%);
+}
